@@ -1,0 +1,129 @@
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1023px) {
+  .container {
+    padding: 40px 15px;
+    width: 65%;
+  }
+  .logo {
+    padding: 15px 0px;
+    text-align: left;
+  }
+  .logo img {
+    width: 85%;
+  }
+  .login {
+    /* float: none;
+    text-align: center; */
+    padding: 10px;
+  }
+  .header {
+    display: inline-block;
+    margin-bottom: 70px;
+  }
+  .login input {
+    font-size: 23px;
+  }
+  .login button {
+    font-size: 32px;
+    right: -40px;
+    height: 50px;
+    width: 100px;
+  }
+  .main-msg {
+    height: 868px;
+    width: 620px;
+  }
+  .offer {
+    top: 28%;
+    width: 525px;
+    margin: 0 auto;
+    margin-right: 60px;
+  }
+  .offer .sub {
+    font-size: 22px;
+  }
+  .offer .sub:before {
+    border-right: 11px solid #ffd72a;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+  }
+  .offer .sub:after {
+    border-left: 11px solid #ffd72a;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+  }
+  .sub-sm {
+    font-size: 37px;
+  }
+  .sub-md {
+    font-size: 67px;
+  }
+  .sub-lg {
+    font-size: 130px;
+  }
+  .sub-xs {
+    font-size: 20px;
+  }
+  .email input {
+    height: 75px;
+    width: 100%;
+    margin: 15px auto 30px;
+    font-size: 30px;
+  }
+  .email input.submit {
+    font-size: 55px;
+    width: 97%;
+  }
+  .steps {
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    padding: 5px 0;
+  }
+  .steps .num {
+    width: 235px;
+    height: 235px;
+  }
+  .steps .num:before {
+    height: 260px;
+  }
+  .steps .num span {
+    font-size: 145px;
+    width: 195px;
+    height: 195px;
+    top: 0px;
+    left: 27px;
+  }
+  .steps .text {
+    font-size: 37px;
+    padding-left: 25px;
+    padding-top: 40px;
+    width: 330px;
+  }
+  .step1:after,
+  .step2:after {
+    border: none;
+  }
+  .about {
+    width: 100%;
+    font-size: 15px;
+  }
+  .step.col-md-4 {
+    width: 100%;
+  }
+  /* .modal-backdrop {
+    height: 92vh;
+  } */
+}
+@media screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1300px) {
+    .container {
+      padding: 30px 0px;
+      margin: 0px auto;
+    }
+    .step1:after, .step2:after {
+      right: -1px;
+    }
+  }
